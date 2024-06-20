@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightblue;
+  }
+
+  .contenedor{
+    text-align: center;
+  }
+
+  .contenedorTurnos {
+    text-align: center;
+    border: solid;
+    margin: auto;
+    width: 60vh;
+    height: 90vh;
+    background-color: white;
+  }
+  
+  .Turnos h1 {
+    font-size: 5rem;
+    color: blue;
+  }
+  
+  .Turnos h2, .Turnos h3 {
+    margin: 0;
+  }
+  
+  .proximos-turnos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .proximos-turnos li {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
